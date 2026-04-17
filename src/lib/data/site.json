@@ -1,40 +1,251 @@
 {
-	"templateId": "generic",
-	"businessName": "Your Business",
-	"tagline": "Professional services you can trust",
-	"primaryColor": "#7c3aed",
-	"secondaryColor": "#f3f4f6",
-	"font": "Inter",
-	"heroImageUrl": "",
-	"aboutImageUrl": "",
-	"aboutText": "",
-	"footerText": "",
-	"whatsappNumber": "",
-	"googleMapsEmbedUrl": "",
-	"web3formsAccessKey": "",
-	"email": "",
-	"phone": "",
-	"address": "",
-	"hours": "",
-	"hero": { "headline": "", "subheadline": "", "ctaText": "Get a Quote", "image": "", "imagePrompt": "" },
-	"about": { "text": "", "image": "", "imagePrompt": "" },
-	"contact": { "email": "", "phone": "", "address": "", "hours": "", "whatsappNumber": "" },
-	"services": [],
-	"products": [],
-	"testimonials": [],
-	"pages": [
-		{
-			"slug": "home",
-			"name": "Home",
-			"sections": [
-				{ "type": "hero" },
-				{ "type": "services" },
-				{ "type": "testimonials" },
-				{ "type": "about" },
-				{ "type": "contact" },
-				{ "type": "footer" }
-			]
-		}
-	],
-	"sections": []
+  "aboutImageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
+  "aboutText": "TechHub has been your trusted source for the latest electronics since 2018. We curate only the best gadgets, tested by our team, at prices that beat the competition.",
+  "address": "Tech Quarter, Shoreditch, London",
+  "businessName": "TechHub",
+  "email": "support@techhub.co.uk",
+  "featuredItems": [],
+  "font": "Inter",
+  "footerText": "Your one‑stop shop for cutting‑edge technology.",
+  "heroImageUrl": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=1600",
+  "hours": "Mon–Sat, 9am–8pm | Sun, 10am–6pm",
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        {
+          "style": "center",
+          "type": "hero"
+        },
+        {
+          "title": "Bestsellers",
+          "type": "productGrid"
+        },
+        {
+          "items": [
+            "Smartphones",
+            "Laptops",
+            "Audio",
+            "Accessories",
+            "Gaming",
+            "Smart Home"
+          ],
+          "title": "Shop by Category",
+          "type": "featuredCollection"
+        },
+        {
+          "columns": 3,
+          "title": "Why Choose Us",
+          "type": "services"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "home"
+    },
+    {
+      "name": "Services",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "productGrid"
+        },
+        {
+          "type": "services"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "services"
+    },
+    {
+      "name": "About",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "about"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "about"
+    },
+    {
+      "name": "Contact",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "contact"
+    }
+  ],
+  "phone": "+44 20 7946 5555",
+  "primaryColor": "#1E293B",
+  "products": [
+    {
+      "description": "Noise‑cancelling, 30h battery life",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "name": "Wireless Headphones",
+      "price": 89
+    },
+    {
+      "description": "Heart rate, GPS, water resistant",
+      "imageUrl": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400",
+      "name": "Smart Watch Pro",
+      "price": 199
+    },
+    {
+      "description": "Water‑resistant, 15\" padded compartment",
+      "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+      "name": "Laptop Backpack",
+      "price": 49
+    },
+    {
+      "description": "7‑in‑1 adapter, 4K HDMI output",
+      "imageUrl": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400",
+      "name": "USB‑C Hub",
+      "price": 35
+    }
+  ],
+  "secondaryColor": "#F8FAFC",
+  "sections": [
+    {
+      "style": "center",
+      "type": "hero"
+    },
+    {
+      "title": "Bestsellers",
+      "type": "productGrid"
+    },
+    {
+      "items": [
+        "Smartphones",
+        "Laptops",
+        "Audio",
+        "Accessories",
+        "Gaming",
+        "Smart Home"
+      ],
+      "title": "Shop by Category",
+      "type": "featuredCollection"
+    },
+    {
+      "columns": 3,
+      "title": "Why Choose Us",
+      "type": "services"
+    },
+    {
+      "layout": "form-right",
+      "type": "contact"
+    }
+  ],
+  "services": [
+    {
+      "description": "On all orders over £50. Next-day delivery available for express shipping.",
+      "durationHours": "N/A",
+      "name": "Free Shipping",
+      "popular": false,
+      "priceFrom": 0
+    },
+    {
+      "description": "All electronics covered by our comprehensive warranty and hassle-free returns.",
+      "durationHours": "N/A",
+      "name": "1‑Year Warranty",
+      "popular": true,
+      "priceFrom": 0
+    },
+    {
+      "description": "Expert technical support via chat, email, or phone. We're here whenever you need us.",
+      "durationHours": "N/A",
+      "name": "24/7 Support",
+      "popular": false,
+      "priceFrom": 0
+    }
+  ],
+  "tagline": "Latest gadgets & electronics at unbeatable prices",
+  "templateId": "electronics",
+  "testimonials": [
+    {
+      "author": "Tom B.",
+      "location": "London",
+      "rating": 5,
+      "text": "Best prices for genuine electronics. The wireless headphones are fantastic."
+    },
+    {
+      "author": "Priya S.",
+      "location": "Manchester",
+      "rating": 5,
+      "text": "The customer service team helped me choose the perfect laptop for my needs."
+    },
+    {
+      "author": "James M.",
+      "location": "Bristol",
+      "rating": 5,
+      "text": "Fast delivery, well-packaged, and the smartwatch works flawlessly."
+    },
+    {
+      "author": "David K.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "Great selection of accessories. The USB-C hub is excellent quality."
+    },
+    {
+      "author": "Sophie L.",
+      "location": "Birmingham",
+      "rating": 5,
+      "text": "The 1-year warranty gives me real confidence in every purchase."
+    },
+    {
+      "author": "Oliver H.",
+      "location": "Glasgow",
+      "rating": 5,
+      "text": "I've bought three items now and each time the experience has been perfect."
+    },
+    {
+      "author": "Rachel W.",
+      "location": "London",
+      "rating": 4,
+      "text": "Their tech support helped me set up my new device in minutes."
+    },
+    {
+      "author": "Ben S.",
+      "location": "Leeds",
+      "rating": 5,
+      "text": "Competitive prices and the free shipping over £50 is a nice bonus."
+    },
+    {
+      "author": "Chloe M.",
+      "location": "London",
+      "rating": 5,
+      "text": "The laptop backpack is sturdy, waterproof, and looks great. Highly recommend."
+    }
+  ],
+  "whatsappNumber": "447123456799",
+  "contact": {
+    "email": "support@techhub.co.uk",
+    "phone": "+44 20 7946 5555",
+    "address": "Tech Quarter, Shoreditch, London",
+    "hours": "Mon–Sat, 9am–8pm | Sun, 10am–6pm",
+    "whatsappNumber": "447123456799"
+  }
 }
